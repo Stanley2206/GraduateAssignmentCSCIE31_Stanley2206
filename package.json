@@ -1,0 +1,29 @@
+{
+  "name": "graduateassignmentcscie31_stanley2206",
+  "version": "1.0.0",
+  "description": "The description of this assignment can be found in Canvas at [Assignment #4](https://canvas.harvard.edu/courses/35096/assignments/202461) (Spring 2018)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "start-dev": "nodemon --inspect ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanley2206/GraduateAssignmentCSCIE31_Stanley2206.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanley2206/GraduateAssignmentCSCIE31_Stanley2206/issues"
+  },
+  "homepage": "https://github.com/Stanley2206/GraduateAssignmentCSCIE31_Stanley2206#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15",
+    "pug": "^2.0.3"
+  }
+}
